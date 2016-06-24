@@ -7,11 +7,13 @@ Tools for phoneme clustering with the OCP.
 This is a stand-alone tool to perform phoneme/grapheme clustering on raw text.
 Usage: `python ocpcluster.py textfile.txt`
 
+Dependencies: _pydot_
+
 Here, textfile.txt is assumed to be raw text, possibly with interword spacing.
 
 Example: `python ocpcluster.py experiment1_data/spanish.txt` should produce the following hierarchical clustering:
 
-![alt text](https://github.com/cvocp/cvocp/spanish.cluster.png "Spanish clustering example")
+![alt text](https://github.com/cvocp/cvocp/blob/master/spanish.cluster.png "Spanish clustering example")
 
 ## cvOCP.py
 
