@@ -23,18 +23,18 @@ Python module to only do top-level clustering, i.e. learn a consonant-vowel dist
 
 Python module that implements Sukhotin's algorithm.
 
-### experiment_1 files
+### experiment1_data
 
 Data files for an experiment in clustering phonemes in 9 languages.
 
-### experiment_2 files
+### experiment2_data
 
 Bible translations for 503 languages, from Kim & Snyder (2013).
 
-### experiment_3 files
+### experiment3_data
 
 Word lists (non-phonemic) for 10 languages, from the SIGMORPHON shared task.
 
-### experiment_4 files
+### experiment4_data
 
 The 54-symbol birch bark letter 292 in Cyrillic transcription.
