@@ -23,6 +23,18 @@ Python module to only do top-level clustering, i.e. learn a consonant-vowel dist
 
 Python module that implements Sukhotin's algorithm.
 
+## run503.py
+
+Runs experiment 2 (infer C/V distinctions) on 503 Bible translations for all languages jointly in experiment2_data.
+
+Usage: `python run503.py ocp` (for OCP algorithm) or `python run503.py sukhotin` (for Sukhotin's algorithm)
+
+## run503i.py
+
+Runs experiment 2 (infer C/V distinctions) on 503 Bible translations for all languages individually, reporting individual accuracies and macro-average in experiment2_data.
+
+Usage: `python run503i.py ocp` (for OCP algorithm) or `python run503i.py sukhotin` (for Sukhotin's algorithm)
+
 ### experiment1_data
 
 Data files for an experiment in clustering phonemes in 9 languages.
