@@ -37,7 +37,7 @@ Usage: `python run503i.py ocp` (for OCP algorithm) or `python run503i.py sukhoti
 
 ### experiment1_data
 
-Data files for an experiment in clustering phonemes in 9 languages.
+Data files for an experiment in clustering phonemes in 9 languages. Note: while most of the symbols are IPA, some substitutions have been made to conform to `pydot` limitations.
 
 ### experiment2_data
 
