@@ -7,7 +7,7 @@ Tools for phoneme clustering with the OCP.
 This is a stand-alone tool to perform phoneme/grapheme clustering on raw text.
 Usage: `python ocpcluster.py textfile.txt`
 
-Dependencies: _pydot_
+Dependencies: [pydot](https://pypi.python.org/pypi/pydot/1.2.2)
 
 Here, textfile.txt is assumed to be raw text, possibly with interword spacing.
 
