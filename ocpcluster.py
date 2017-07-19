@@ -4,7 +4,7 @@
 # Dependencies: pydot (for cluster drawing)
 # The input file is assumed to be unpunctuated text, possibly with
 # newlines (they are ignored).
-# -20150502
+# -MH 20150502
 
 import re
 import random
