@@ -4,7 +4,7 @@
 # Guy, J. (1991). Vowel Identification: an old (but good) algorithm.      #
 # Cryptologia, 15(3):258-262.                                             #
 # Author:                                                                 #
-# - 20160517                                                              #
+# Mans Hulden 20160517                                                    #
 ###########################################################################
 
 def candv(data, diagonal = False):
