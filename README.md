@@ -1,6 +1,17 @@
 # cvocp
 
-Tools for phoneme clustering with the OCP.
+Tools for phoneme clustering with the OCP. From the paper:
+```
+@InProceedings{hulden:2017:CoNLL,
+  author    = {Hulden, Mans},
+  title     = {A phoneme clustering algorithm based on the obligatory contour principle},
+  booktitle = {Proceedings of the 21st Conference on Computational Natural Language Learning (CoNLL)},
+  month     = {August},
+  year      = {2017},
+  address   = {Vancouver, Canada},
+  publisher = {Association for Computational Linguistics}
+}
+```
 
 ## ocpcluster.py
 
@@ -34,6 +45,10 @@ Usage: `python run503.py ocp` (for OCP algorithm) or `python run503.py sukhotin`
 Runs experiment 2 (infer C/V distinctions) on 503 Bible translations for all languages individually, reporting individual accuracies and macro-average in experiment2_data.
 
 Usage: `python run503i.py ocp` (for OCP algorithm) or `python run503i.py sukhotin` (for Sukhotin's algorithm)
+
+## mm.py
+
+A reimplementation of the SVD-based method for unsupervised C/V classification in "Singular Value Analysis of Cryptograms", by Cleve Moler and Donald Morrison. The American Mathematical Monthly, Vol. 90, No. 2 (Feb., 1983), pp. 78-87.
 
 ### experiment1_data
 
