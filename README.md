@@ -5,7 +5,7 @@ Tools for phoneme clustering with the OCP. From the paper:
 @InProceedings{hulden:2017:CoNLL,
   author    = {Hulden, Mans},
   title     = {A phoneme clustering algorithm based on the obligatory contour principle},
-  booktitle = {Proceedings of the 21st Conference on Computational Natural Language Learning (CoNLL)},
+  booktitle = {Proceedings of The 21st SIGNLL Conference on Computational Natural Language Learning (CoNLL)},
   month     = {August},
   year      = {2017},
   address   = {Vancouver, Canada},
