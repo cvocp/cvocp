@@ -32,7 +32,7 @@ Python module to only do top-level clustering, i.e. learn a consonant-vowel dist
 
 ## sukhotin.py
 
-Python module that implements Sukhotin's algorithm.
+Python module that implements Sukhotin's algorithm, based on the description by Jacques Guy in: Guy, J. (1991). Vowel Identification: an old (but good) algorithm. 
 
 ## run503.py
 
