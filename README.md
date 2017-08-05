@@ -26,6 +26,14 @@ Example: `python ocpcluster.py experiment1_data/spanish.txt` should produce the 
 
 ![alt text](https://github.com/cvocp/cvocp/blob/master/spanish.cluster.png "Spanish clustering example")
 
+## ocpclustertier.py
+
+This is the tier-based variant of the above. It does the initial split identically to the previous (residue-based) algorithm, but then separates the corpus into *tiers* which are processed separately.
+
+Usage: `python ocpclustertier.py textfile.txt`
+
+Dependencies: [pydot](https://pypi.python.org/pypi/pydot/1.2.2)
+
 ## cvOCP.py
 
 Python module to only do top-level clustering, i.e. learn a consonant-vowel distinction.
