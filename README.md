@@ -32,9 +32,7 @@ This is the tier-based variant of the above. It does the initial split identical
 
 Usage: `python ocpclustertier.py textfile.txt`
 
-The tier-based variant has a strong tendency to split (after the top-level C/V split) consonants into coronals and non-coronals, as see in the example below. 
-
-Example: `python ocpclustertier.py experiment1_data/spanish.txt` should produce the following hierarchical clustering:
+The tier-based variant has a strong tendency to split (after the top-level C/V split) consonants into coronals and non-coronals, as well as split the vowel group into front/back (for small vowel systems), as seen in the example below. 
 
 ![alt text](https://github.com/cvocp/cvocp/blob/master/spanish.cluster.2.png "Spanish clustering example")
 
