@@ -80,6 +80,6 @@ Word lists (non-phonemic) for 10 languages, from the SIGMORPHON shared task.
 
 The 54-symbol birch bark letter 292 in Cyrillic transcription.
 
-### experiment4_data
+### experiment5_data
 
 Tier-based OCP experiment with graphemic data in 14 languages taken from Universal Dependencies 2.0.
